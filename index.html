@@ -1,1 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 2</title>
+      
+      <style>
+      /* Base styles */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 1.75em;
+      }
+
+      div {
+        width: 31%;
+        height: 150px;
+        background-color: grey;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 1% 10px 1%;
+        overflow: hidden;
+        float: left;
+        position: relative;
+      }
+      
+      h2 {
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 125px;
+        border: 1px solid black;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.25em;
+      }
+
+      .pink {
+        background-color: pink;
+      }
+
+      .red {
+        background-color: red;
+        color: white;
+      } 
+      
+      .yellow {
+        background-color: yellow;
+      }
+      
+      p {
+        position: absolute;
+        top: 40px;
+      }
+       
+      /* Tablet */
+      @media (min-width: 768px) and (max-width: 991px) {
+      .sushi {
+        width: 95%;
+        }
+      
+      .beef, .chicken {
+        width: 46.5%;
+        }
+      
+      }    
+      /* Mobile */
+      @media (max-width: 767px) {
+      div {
+        width: 95%;           
+        }
+      } 
+      
+    </style>
+      </head>
+    <body>
+      <h1>Our Menu</h1>
+
+      <div class="chicken">
+          <h2 class="pink">Chicken</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="beef">
+          <h2 class="red">Beef</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="sushi">
+          <h2 class="yellow">Sushi</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      
+    </body>
+</html>
